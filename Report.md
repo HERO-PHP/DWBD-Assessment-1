@@ -35,7 +35,7 @@ The solution will integrate data from GrabMart's inventory and supplier manageme
 
 ## 2.The Analysis and design of a dimension data model
 
->==This section corresponds to questions 1.1-1.4 in the original problem.==
+><font color="#FFD700">This section corresponds to questions 1.1-1.4 in the original problem.</font>
 
 **1.1 Identify and define the grain (detail level) of three different central fact tables to represent
 the three main business activities of the inventory management business area.(10 Marks):**
