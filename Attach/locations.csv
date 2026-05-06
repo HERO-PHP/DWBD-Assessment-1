@@ -1,0 +1,11 @@
+location_id,location_name,location_type,city
+L001,Location_1,Store,Singapore
+L002,Location_2,Warehouse,Singapore
+L003,Location_3,Warehouse,Singapore
+L004,Location_4,Dark Store,Singapore
+L005,Location_5,Store,Singapore
+L006,Location_6,Store,Singapore
+L007,Location_7,Warehouse,Singapore
+L008,Location_8,Dark Store,Singapore
+L009,Location_9,Dark Store,Singapore
+L010,Location_10,Dark Store,Singapore
