@@ -184,7 +184,7 @@ business case scenario. (10 Marks)**
 
 ><font color="#968107">This section corresponds to questions 2.1-2.4, and 3.1 and 3.2 in the original problem.</font>
 
-#### 1). Create a database. (5 Marks)
+#### 1). 2.1 Create a database. (5 Marks)
 
 ```SQL
 Create Database GrabWorkArea
@@ -192,7 +192,7 @@ Create Database GrabWorkArea
 
 ![alt text](./ScreenShot/createdb.png)
 
-#### 2). Create dimension tables (5 Marks)
+#### 2). 2.2 Create dimension tables (5 Marks)
 
 ```SQL
 CREATE TABLE dbo.ProductsFinal(
@@ -223,7 +223,7 @@ CREATE TABLE dbo.Locations(
 
 ![alt text](./ScreenShot/createdim.png)
 
-#### 3). Create fact tables. (5 Marks)
+#### 3). 2.3 Create fact tables. (5 Marks)
 
 ```SQL
 CREATE TABLE dbo.GoodsReceivedFinal(
@@ -255,7 +255,7 @@ CREATE TABLE dbo.PurchaseOrderFinal(
 
 ![alt text](./ScreenShot/createfact.png)
 
-#### 4). Add appropriate primary keys and foreign keys constraints. (5 Marks)
+#### 4). 2.4 Add appropriate primary keys and foreign keys constraints. (5 Marks)
 
 ```SQL
 ALTER TABLE dbo.ProductsFinal ADD  CONSTRAINT
@@ -307,7 +307,7 @@ REFERENCES dbo.PurchaseOrderFinal (PurchaseOrderId)
 
 ![alt text](./ScreenShot/addfkforfact3.png)
 
-#### 5). Populate the data warehouse database with some test data. (5 Marks)
+#### 5). 3.1 Populate the data warehouse database with some test data. (5 Marks)
 
 >**Try to populate data using both the insert keyword and a data file,<br/>Check:**
 
@@ -421,7 +421,7 @@ VALUES
 
 ![alt text](./ScreenShot/InverntoryLevelsFinalImport.png)
 
-#### 6). Export the data warehouse database data into an external data file.(5 Marks)
+#### 6). 3.2 Export the data warehouse database data into an external data file.(5 Marks)
 
 >In SSMS, data is exported using the SSMS tool (Tasks - Export Data).
 
@@ -479,13 +479,13 @@ select * from dbo.Suppliers
 
 ><font color="#968107">This section corresponds to questions 3.3, 3.4, and 3.5 in the original questions.</font>
 
-#### 1).Migrate the data file from the file system to Apache HDFS. (5 Marks)
+#### 1). 3.3 Migrate the data file from the file system to Apache HDFS. (5 Marks)
 
 ![alt text](./ScreenShot/hdfs-1.png)
 
 ![alt text](./ScreenShot/hdfs-2.png)
 
-#### 2).Create a suitable data structure for loading the data file into HIVE(5 Marks)
+#### 2). 3.4 Create a suitable data structure for loading the data file into HIVE(5 Marks)
 
 * **2.1) Upload the data file I need:**
 
@@ -544,7 +544,7 @@ select * from purchaseOrderFact
 
 ![alt text](./ScreenShot/hive-5.png)
 
-#### 3). Demonstrate the use of Apache Pig for manipulating the loaded data (5 Marks)
+#### 3). 3.5 Demonstrate the use of Apache Pig for manipulating the loaded data (5 Marks)
 
 * **3.1) Load and Dump data,Command:**
 

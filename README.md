@@ -9,6 +9,7 @@ DWBD-Assessment-1/
 ├── Attach/       # The files in this directory are the data files needed by the data warehouse and Apache HDFS.
 ├── ScreenShot/   # Successful screenshot
 ├── ssms_export/  # Exported files
+├── Report.docx   # Word version of the report
 ├── Report.md     # A visual version report for Markdown.
 └── Readme.md     # Project self-description document
 ```
