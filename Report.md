@@ -35,7 +35,7 @@ The solution will integrate data from GrabMart's inventory and supplier manageme
 
 ## 2.The Analysis and design of a dimension data model
 
-><font color="#FFD700">This section corresponds to questions 1.1-1.4 in the original problem.</font>
+><font color="#968107">This section corresponds to questions 1.1-1.4 in the original problem.</font>
 
 **1.1 Identify and define the grain (detail level) of three different central fact tables to represent
 the three main business activities of the inventory management business area.(10 Marks):**
@@ -182,7 +182,7 @@ business case scenario. (10 Marks)**
 
 ## 3.The implementation and testing of the data warehouse (include screen shots to show SQL commands and their results)
 
->==This section corresponds to questions 2.1-2.4, and 3.1 and 3.2 in the original problem.==
+><font color="#968107">This section corresponds to questions 2.1-2.4, and 3.1 and 3.2 in the original problem.</font>
 
 #### 1). Create a database. (5 Marks)
 
@@ -477,7 +477,7 @@ select * from dbo.Suppliers
 
 ## 4.The implementation and testing of the BigData storage on HDFS (including the Pig commands and their results)
 
->==This section corresponds to questions 3.3, 3.4, and 3.5 in the original questions.==
+><font color="#968107">This section corresponds to questions 3.3, 3.4, and 3.5 in the original questions.</font>
 
 #### 1).Migrate the data file from the file system to Apache HDFS. (5 Marks)
 
@@ -489,7 +489,7 @@ select * from dbo.Suppliers
 
 * **2.1) Upload the data file I need:**
 
->==I used "purchase_order.csv" to achieve this.<br>Upload this file to "/user/maria_dev/",<br>Grant read, write, and execute permissions.==
+><font color="#968107">I used "purchase_order.csv" to achieve this.<br>Upload this file to "/user/maria_dev/",<br>Grant read, write, and execute permissions.</font>
 
 ![alt text](./ScreenShot/hive-1.png)
 
@@ -548,7 +548,7 @@ select * from purchaseOrderFact
 
 * **3.1) Load and Dump data,Command:**
 
->==Upload "GoodsReceived.csv","Products.csv" and "PurchaseOrderFinal.csv" file to the "/user/maria_dev/" directory and grant it read, write, and execute permissions.==
+><font color="#968107">Upload "GoodsReceived.csv","Products.csv" and "PurchaseOrderFinal.csv" file to the "/user/maria_dev/" directory and grant it read, write, and execute permissions.</font>
 
 ![alt text](./ScreenShot/hive-0.png)
 
