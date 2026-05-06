@@ -732,7 +732,7 @@ In modern enterprise architectures, the two are often complementary rather than 
 
 ## References
 
-[1] Apache Software Foundation. *Hadoop Distributed File System (HDFS) Architecture Guide*. Updated 2023.
+[1] Apache Software Foundation. *Hadoop Distributed File System (HDFS) Architecture Guide*. Updated 2023. 
 [2] Apache Software Foundation. *Apache Hadoop Documentation*. 2022–2024.
 [3] Shvachko, K. et al. *The Hadoop Distributed File System*. IEEE (updated references and interpretations in recent Hadoop docs, 2021–2023 editions).
 [4] Databricks. *Data Lakehouse & HDFS Best Practices*. 2022–2024.
